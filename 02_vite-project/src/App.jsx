@@ -26,8 +26,8 @@ function App() {
   return (
     <>
     <h1>Hooks</h1>
-    <p>Minimum is '0' Maximum is '20' </p>
-    <button onClick={inc}>INC:{count}</button>
+    <p>Minimum is 0 And  Maximum is 20 </p>
+    <button style={{ margin: '5px'}} onClick={inc}>INC:{count}</button>
     <button onClick={dec}>DEC:{count}</button>
     </>
   )
