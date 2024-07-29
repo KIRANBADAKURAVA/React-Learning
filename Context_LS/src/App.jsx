@@ -8,7 +8,7 @@ function App() {
   const [todos, settodos] = useState([]);
 
   const addTodo = (todo) => {
-    settodos((prev) => [...prev, { id: Date.now(), ...todo }]);
+    settodos((prev) => [...prev, todo]);
     console.log(todo);
   };
 
